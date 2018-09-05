@@ -1,0 +1,42 @@
+.border {
+    border-style: solid;
+    border-width: 20px;
+}
+body {
+    background-color: lightgrey;
+}
+.alert-custom {
+    color: white;
+}
+#main-img {
+    width: 25%;
+    height: 25%;
+}
+@media (max-width: 768px) {
+    #main-img {
+        width: 50%;
+        height: 50%;
+    };
+}
+#user-input {
+    width: 100%;
+}
+.alert {
+   
+}
+@media only screen and (max-width: 580px) {
+    .alert-left {
+        padding-right: 25%;
+    }
+    .alert-right {
+        padding-left: 25%;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .alert-left {
+        padding-right: 35%;
+    }
+    .alert-right {
+        padding-left: 35%;
+    }
+}
